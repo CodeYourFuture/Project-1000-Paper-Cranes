@@ -1,0 +1,39 @@
+.card {
+  @include grid-assign(true, image, name, description, requirements);
+
+  display: grid;
+  grid-template:
+    "image image image" auto
+    ".     .      ." var(--theme-spacing--1)
+    ".     name  ." auto
+    ".     .      ." var(--theme-spacing--1) / var(--theme-spacing--1) 1fr var(--theme-spacing--1);
+
+  height: 100%;
+  font-weight: 600;
+  transition: all 0.3s;
+
+  &__name {
+    background-image: linear-gradient(
+        326deg,
+        transparent calc(30% - 1px),
+        var(--crane-color) 30%
+      ),
+      linear-gradient(
+        220deg,
+        transparent calc(40% - 1px),
+        var(--crane-color) 40%
+      );
+    padding: var(--theme-spacing--1);
+  }
+
+  &__image {
+    width: 100%;
+    overflow: hidden;
+    color: var(--crane-color);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    @include on-event(false, ".card") {
+      transform: rotate3d(0, 1, 0, 180deg);
+      filter: hue-rotate(45deg);
+    }
+  }
+}

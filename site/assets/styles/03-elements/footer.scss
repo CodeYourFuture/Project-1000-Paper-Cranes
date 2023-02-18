@@ -1,0 +1,20 @@
+footer {
+  color: var(--theme-color--paper);
+  @include grid-assign(false, a, p);
+
+  grid-template:
+    ". . ." var(--theme-spacing--6)
+    "a . p" minmax(0, 1fr)
+    ". . ." var(--theme-spacing--gutter) / var(--theme-spacing--touch-target) var(
+      --theme-spacing--gutter
+    )
+    1fr;
+
+  a {
+    // enforce tap sizing
+    $taps: height, width, min-width, max-width;
+    @each $rule in $taps {
+      #{$rule}: var(--theme-spacing--touchtarget);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// https://css-tricks.com/code-as-documentation-new-strategies-with-css-grid/
+@mixin grid-assign($bem: true, $elements...) {
+  display: grid;
+  @each $element in $elements {
+    @if $bem == true {
+      &__#{$element} {
+        grid-area: $element;
+      }
+    } @else {
+      #{$element} {
+        grid-area: $element;
+      }
+    }
+  }
+}

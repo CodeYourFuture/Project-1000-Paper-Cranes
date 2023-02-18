@@ -1,0 +1,7 @@
+article {
+  box-sizing: content-box;
+  background-color: var(--theme-color--paper);
+  @include pattern(graph, currentColor, b, false, 0.1);
+  padding: var(--theme-spacing--6);
+  max-width: var(--theme-spacing--linelength);
+}

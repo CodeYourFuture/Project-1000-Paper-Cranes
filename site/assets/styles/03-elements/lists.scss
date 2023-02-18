@@ -1,0 +1,19 @@
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--theme-spacing--box), var(--theme-spacing--container-min))
+  );
+  gap: var(--theme-spacing--gutter);
+  li {
+    aspect-ratio: 1/1;
+  }
+}

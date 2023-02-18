@@ -1,0 +1,18 @@
+p {
+  line-height: 1.5;
+}
+
+blockquote {
+  font-size: var(--theme-type-size--4);
+  margin: var(--theme-spacing--4) 0 var(--theme-spacing--6);
+  @include pattern(dots, var(--theme-color--pop), b, false, 0.2);
+  border-bottom: var(--theme-border--thick);
+  border-image: var(--theme-border-image);
+}
+
+code,
+.code,
+pre code .highlight pre,
+time {
+  font: var(--theme-font--system);
+}
