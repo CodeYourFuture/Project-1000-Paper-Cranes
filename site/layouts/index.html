@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<h2>{{.Title}}</h2>
+<section>
+  {{.Content}}
+  <button id="challenge">Challenge me</button>
+  <button id="advanced">Make it harder</button>
+</section>
+
+<ul id="tools">
+  {{ range $.Site.Data.html }} {{ partial "card.html" (dict "context" . "tool"
+  "html")}} {{ end}}
+  <!-- now add css options-->
+  {{ range $.Site.Data.css }} {{ partial "card.html" (dict "context" . "tool"
+  "css") }} {{ end}}
+  <!-- now add js options -->
+  {{ range $.Site.Data.javascript }} {{ partial "card.html" (dict "context" .
+  "tool" "javascript") }} {{ end}}
+  <!-- now add generators -->
+  {{ range $.Site.Data.generator}} {{ partial "card.html" (dict "context" .
+  "tool" "generator")}} {{ end}}
+  <!-- now add asset handling -->
+  {{ range $.Site.Data.assets }} {{ partial "card.html" (dict "context" . "tool"
+  "assets")}} {{ end}}
+  <!-- now add deployment tools -->
+  {{ range $.Site.Data.deployment }} {{ partial "card.html" (dict "context" .
+  "tool" "deployment")}} {{ end}}
+</ul>
+
+{{ end }}

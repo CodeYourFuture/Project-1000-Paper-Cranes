@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Hugo",
+        "url": "https://gohugo.io/",
+        "description": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.",
+        "image": "https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/images/hugo-logo-wide.png",
+        "requires": "Go"
+    },
+    {
+        "name": "Jekyll",
+        "url": "https://jekyllrb.com/",
+        "description": "Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub’s co-founder, it is distributed under the open source MIT license.",
+        "image": "https://jekyllrb.com/img/logo-2x.png",
+        "requires": "Ruby"
+    },
+    {
+        "name": "Gatsby",
+        "url": "https://www.gatsbyjs.com/",
+        "description": "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps",
+        "image": "https://www.gatsbyjs.com/Gatsby-Monogram.svg",
+        "requires": "Node"
+    },
+    {
+        "name": "11ty",
+        "url": "https://www.11ty.dev/",
+        "description": "11ty is a simpler static site generator. It's easy to use, flexible, and doesn’t require a lot of configuration.",
+        "image": "https://www.11ty.dev/img/logo.svg",
+        "requires": "Node"
+    },
+    {
+        "name": "Next",
+        "url": "https://nextjs.org/",
+        "description": "Next.js is a React framework for production, it enables React based web applications experiences by providing a set of features that are needed in production such as SSR, SSG, and many more.",
+        "image": "https://nextjs.org/static/twitter-cards/home.jpg",
+        "requires": "React"
+    },
+    {
+        "name": "Nuxt",
+        "url": "https://nuxtjs.org/",
+        "description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node, Webpack and Babel.js.",
+        "image": "https://nuxtjs.org/meta_400.png",
+        "requires": "Node",
+         "advanced" : true
+    },
+    {
+        "name": "Docusaurus",
+        "url": "https://docusaurus.io/",
+        "description": "Docusaurus is a modern static website generator. It was created to help you generate, maintain, and deploy documentation websites.",
+        "image": "https://docusaurus.io/img/docusaurus_keytar.svg",
+        "requires": "Node",
+         "advanced" : true
+    },
+    {
+        "name": "Sphinx",
+        "url": "https://www.sphinx-doc.org/en/master/",
+        "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.",
+        "image": "https://www.sphinx-doc.org/en/master/_static/sphinxlogo.svg",
+        "requires": "Python",
+         "advanced" : true
+    },
+    {
+        "name": "Hakyll",
+        "url": "https://jaspervdj.be/hakyll/",
+        "description": "Hakyll is a Haskell library for creating static websites. It is inspired by Jekyll, but is not a port of it.",
+        "image": "https://jaspervdj.be/hakyll/img/hakyll-logo.svg",
+        "requires": "Haskell",
+         "advanced" : true
+    },
+        {
+        "name": "Cobalt",
+        "url": "https://cobalt-org.github.io/",
+        "description": "Cobalt is a static site generator written in Rust. It is inspired by Jekyll and Hexo.",
+        "image": "https://cobalt-org.github.io/assets/logo.svg",
+        "requires": "Rust",
+         "advanced" : true
+    },
+    {
+        "name": "Jungle",
+        "url": "https://www.junglejs.org/",
+        "description": "Jungle is a static site generator written in JavaScript. It is inspired by Jekyll and Hexo.",
+        "image": "https://www.junglejs.org/assets/logo.svg",
+        "requires": "Node",
+        "advanced" : true
+    }
+
+]
+

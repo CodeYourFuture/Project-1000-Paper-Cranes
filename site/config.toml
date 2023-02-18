@@ -1,0 +1,36 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "1000 Paper Cranes"
+languageLang = "en"
+[Menu]
+[[Menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[Menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+[[Menu.main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 3
+
+
+[params]
+description = "Get a random combination of tools and rebuild this website using them."
+repo = "https://github.com/CodeYourFuture/1000-Paper-Cranes/"
+tree = "https://github.com/CodeYourFuture/1000-Paper-Cranes/tree/main/"
+edit = "https://github.com/CodeYourFuture/1000-Paper-Cranes/edit/main/"
+
+[markup]
+[markup.tableOfContents]
+endLevel = 6
+ordered = true
+startLevel = 2
+[markup.highlight]
+lineNos = false
+codeFences = true
+guessSyntax = true
+
+disableKinds = ["taxonomy", "term", "tags", "categories"]

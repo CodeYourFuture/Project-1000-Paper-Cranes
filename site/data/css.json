@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Just CSS",
+        "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+        "image": "https://www.w3.org/Style/CSS/Overview.en.html"
+    },
+    {
+        "name": "SASS",
+        "url": "https://sass-lang.com/",
+        "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+        "image": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+        "requires": "Pipeline"
+    },
+    {
+        "name": "PostCSS",
+        "url": "https://postcss.org/",
+        "description": "PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.",
+        "image": "https://postcss.org/_/web_modules/Hyperapp.svg",
+        "requires": "Pipeline",
+        "advanced" : true
+    },
+    {
+        "name": "LESS",
+        "url": "https://lesscss.org/",
+        "description": "LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (IE 6+, Webkit, Firefox) and server-side, with Node.js and Rhino.",
+        "image": "https://lesscss.org/public/img/less_logo.svg",
+        "requires": "Pipeline",
+         "advanced" : true
+    },
+    {
+        "name": "Bootstrap",
+        "url": "https://getbootstrap.com/",
+        "description": "Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.",
+        "image": "https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
+    },
+    {
+        "name": "Tailwind",
+        "url": "https://tailwindcss.com/",
+        "description": "A utility-first CSS framework for rapidly building custom designs.",
+        "image": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8b1b1a.svg"
+    },
+    {
+        "name": "Bulma",
+        "url": "https://bulma.io/",
+        "description": "Bulma is a free, open source CSS framework based on Flexbox and used by more than 100,000 developers.",
+        "image": "https://bulma.io/images/bulma-logo.png"
+    },
+    {
+        "name": "Tachyons",
+        "url": "https://tachyons.io/",
+        "description": "Tachyons is a functional CSS framework for rapidly building interfaces.",
+        "image": "https://tachyons.io/img/tachyons-logo.svg"
+    },
+        {
+        "name": "Material",
+        "url": "https://m2.material.io/develop/web",
+        "description": "Material Design is a unified system that combines theory, resources, and tools for crafting digital experiences.",
+        "image": "https://m2.material.io/develop/web/images/branding/md2/logo/1x/logo_googleg_48dp.png"
+    },
+    { 
+        "name": "Foundation",
+        "url": "https://get.foundation/",
+        "description": "Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device.",
+        "image": "https://get.foundation/sites/default/files/foundation-favicon.png"
+    }
+
+]
+

@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Github Pages",
+        "url": "https://pages.github.com/",
+        "description": "Github Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    },
+    {
+        "name": "Netlify",
+        "url": "https://www.netlify.com/jamstack/",
+        "description": "Netlify is a cloud platform for building, deploying, and managing modern web projects. It provides continuous deployment (Git-triggered builds), an intelligent, global CDN, full DNS (including custom domains), automated HTTPS, asset acceleration, and a lot more.",
+        "image": "https://www.netlify.com/img/press/logos/logomark.png"
+    },
+    {
+        "name": "Digital Ocean",
+        "url": "https://docs.digitalocean.com/tutorials/jamstack-series/",
+        "description": "DigitalOcean is a cloud platform that provides developers with the tools to deploy and scale applications that run simultaneously on multiple computers. It is designed to simplify the process of launching and managing applications on the cloud.",
+        "image": "https://www.digitalocean.com/assets/images/logos-badges/DO_Logo_Horizontal_Blue-0e6f6a2f.svg",
+         "advanced" : true
+    },
+    {
+        "name": "Render",
+        "url": "https://render.com/",
+        "description": "Render is a cloud platform for building, deploying, and managing modern web projects. It provides continuous deployment (Git-triggered builds), an intelligent, global CDN, full DNS (including custom domains), automated HTTPS, asset acceleration, and a lot more.",
+        "image": "https://render.com/images/logo.svg",
+         "advanced" : true
+    },
+    {
+        "name": "Vercel",
+        "url": "https://vercel.com/",
+        "description": "Vercel is a cloud platform for static sites and Serverless Functions that makes it easy to deploy your Jamstack apps. It provides a global edge network, Serverless Functions, and an intuitive Git-based workflow.",
+        "image": "https://vercel.com/static/images/og-image.png",
+         "advanced" : true
+    },
+    {
+        "name": "Fly",
+        "url": "https://fly.io/",
+        "description": "Fly is a cloud platform for building, deploying, and managing modern web projects. It provides continuous deployment (Git-triggered builds), an intelligent, global CDN, full DNS (including custom domains), automated HTTPS, asset acceleration, and a lot more.",
+        "image": "https://fly.io/images/fly-logo.svg",
+         "advanced" : true
+    }
+]
+

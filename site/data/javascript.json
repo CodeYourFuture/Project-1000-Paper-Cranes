@@ -1,0 +1,36 @@
+[
+    {
+        "name": "React",
+        "url": "https://reactjs.org/",
+        "requires": "Node",
+        "description": "React is a JavaScript library for building user interfaces.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+    },
+    {
+        "name": "Vue",
+        "url": "https://vuejs.org/",
+        "requires": "Node",
+        "description": "Vue.js is an open-source front end JavaScript framework for building user interfaces and single-page applications.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
+    },
+    {
+        "name": "Just JavaScript",
+        "url": "https://www.javascript.com/",
+        "description": "JavaScript is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png"
+    },
+    {
+        "name": "JQuery",
+        "url": "https://jquery.com/",
+        "description": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JQuery_logo.svg/1200px-JQuery_logo.svg.png"
+    },
+    {
+        "name": "Svelte",
+        "url": "https://svelte.dev/",
+        "description": "Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png"
+    }
+
+]
+

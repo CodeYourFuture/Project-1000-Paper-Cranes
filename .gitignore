@@ -108,6 +108,7 @@ dist
 # Hugo files
 .hugo_build.lock
 /public
+/resources/_gen/
 
 # Jekyll build files
 /.jekyll-cache/

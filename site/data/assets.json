@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Gulp",
+        "url": "https://gulpjs.com/",
+        "description": "Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.",
+        "image": "https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png",
+        "requires":"Node"
+
+    },
+    {
+        "name": "Vite",
+        "url": "https://vitejs.dev/",
+        "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts: a dev server that provides rich feature enhancements over native ES Module imports, and a build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.",
+        "image": "https://raw.githubusercontent.com/vitejs/vite/master/docs/.vitepress/public/logo.svg",
+        "requires": "Node"
+
+    },
+    {
+        "name": "EsBuild",
+        "url": "https://esbuild.github.io/",
+        "description": "Esbuild is an extremely fast JavaScript bundler and minifier. It is written in Go and can be used as a library or a standalone tool.",
+        "image": "https://raw.githubusercontent.com/evanw/esbuild/master/docs/logo.svg",
+        "requires":"Node"
+
+    },
+    {
+        "name": "Parcel",
+        "url": "https://en.parceljs.org/",
+        "description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multi-core processing, and requires zero configuration.",
+        "image": "https://raw.githubusercontent.com/parcel-bundler/website/master/src/assets/parcel.svg",
+        "requires":"Node"
+
+    },
+    {
+        "name": "Webpack",
+        "url": "https://webpack.js.org/",
+        "description": "Webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.",
+        "image": "https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png",
+        "requires":"Node",
+         "advanced" : true
+
+    },
+    { 
+        "name": "Rollup",
+        "url": "https://rollupjs.org/guide/en/",
+        "description": "Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.",
+        "image": "https://raw.githubusercontent.com/rollup/rollupjs.org/master/src/images/logo.svg",
+        "requires":"Node"
+
+    },
+    { 
+        "name": "Hugo Pipes",
+        "url": "https://gohugo.io/hugo-pipes/",
+        "description": "Hugo Pipes is a new feature in Hugo 0.55.0 that allows you to process your static assets with a pipeline of tools. This is a very powerful feature that allows you to do things like minify your CSS and JavaScript, process your SCSS files, and much more.",
+        "image": "https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo-wide.svg",
+        "requires":"Hugo",
+         "advanced" : true
+
+
+    },
+{
+    "name": "Jekyll Assets",
+    "url": "https://jekyll.github.io/jekyll-assets/",
+    "description": "Jekyll Assets is a plugin for Jekyll that allows you to use the asset pipeline to compile, minify, and fingerprint your assets.",
+    "image": "https://raw.githubusercontent.com/jekyll/jekyll-assets/master/docs/assets/images/logo.png",
+    "requires": "Jekyll",
+    "advanced" : true
+},
+{ 
+    "name": "NPM Scripts",
+    "url": "https://docs.npmjs.com/misc/scripts",
+    "description": "NPM Scripts are a way to run predefined commands through the command line. They are defined in the package.json file and can be run with npm run <command>.",
+    "image": "https://raw.githubusercontent.com/npm/logos/master/npm%20square/npm-square-red.png",
+    "requires": "Node"
+}
+]
+

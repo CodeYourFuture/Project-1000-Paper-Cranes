@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Just HTML",
+        "url": "https://html.spec.whatwg.org/multipage/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+        "description": "HTML is the standard markup language for creating Web pages.",
+        "requires": "None"
+
+    },
+    {
+        "name": "JSX",
+        "url": "https://reactjs.org/docs/introducing-jsx.html",
+        "requires": "React",
+        "description": "JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+    },
+    {
+        "name": "EJS",
+        "url": "https://ejs.co/",
+        "requires": "Node",
+        "description": "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+        "name": "Pug",
+        "url": "https://pugjs.org/api/getting-started.html",
+        "requires": "Node",
+        "description": "Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers."
+    },
+    {
+        "name": "Handlebars",
+        "url": "https://handlebarsjs.com/",
+        "requires": "Node",
+        "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+    },
+    {
+        "name": "Go Templating",
+        "url": "https://gohugo.io/templates/",
+        "requires": "Go",
+        "description": "Go's templating language is based on the template/HTML format used in the C programming language.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+    },
+    {
+        "name": "Liquid",
+        "url": "https://shopify.github.io/liquid/",
+        "requires": "Ruby",
+        "description": "Liquid is a template language created by Shopify and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg"
+    },
+    {
+        "name": "Twig",
+        "url": "https://twig.symfony.com/doc/3.x/templates.html",
+        "requires": "PHP",
+        "description": "Twig is a modern template engine for PHP.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+    },
+    {
+        "name": "XSLT",
+        "url": "https://www.w3.org/TR/xslt-30/",
+        "requires": "XML",
+        "description": "XSLT is a language for transforming XML documents into other XML documents. It is a W3C Recommendation.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Internationalized_Resource_Identifier_%28IRI%29.svg",
+        "advanced": true
+    }
+
+]
+

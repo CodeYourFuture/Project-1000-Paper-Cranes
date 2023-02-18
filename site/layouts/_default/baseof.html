@@ -1,0 +1,7 @@
+{{- partial "head.html" . -}}
+<body>
+  <a id="skip-link" href="#main">Skip to main</a>
+  {{ partialCached "header.html" . }}
+  <main id="main" tabindex="0">{{ block "main" . }} {{ end }}</main>
+  {{- partialCached "foot.html" . -}}
+</body>
