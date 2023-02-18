@@ -8,7 +8,7 @@ a:not([class]),
 a:link:not([class]),
 a:visited:not([class]) {
   color: currentColor;
-  text-decoration: dotted underline;
+  text-decoration: none;
 
   @include on-event {
     text-decoration: underline;

@@ -1,4 +1,5 @@
 main {
+  min-height: 70vh;
   @include on-event {
     outline: none;
   }

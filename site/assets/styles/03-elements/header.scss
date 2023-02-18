@@ -3,7 +3,7 @@ header {
   grid-template:
     ".. .." var(--theme-spacing--3)
     "h1 nav" auto
-    ".. .." var(--theme-spacing--5) / 1fr auto;
+    ".. .." var(--theme-spacing--2) / 1fr auto;
   align-items: center;
 
   h1 {
