@@ -1,0 +1,21 @@
+{
+    "name": "1000 Paper Cranes",
+    "short_name": "1KPC",
+    "description": "Build 1000 versions of this page using different combinations of Front End tooling.",
+    "start_url": "http://localhost:1313/",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fff",
+    "background_color": "#3912d9",
+    "display": "standalone"
+}
