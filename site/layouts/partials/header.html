@@ -1,5 +1,10 @@
 <header>
-  <h1><a href="/">{{.Site.Title}}</a></h1>
+  <h1>
+    <a href="/">
+      {{ partial "crane.html" }}
+      <span class="is-invisible">{{.Site.Title}}</span></a
+    >
+  </h1>
   <nav>
     <ul>
       {{ range .Site.Menus.main }}

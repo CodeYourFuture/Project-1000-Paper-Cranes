@@ -2,10 +2,9 @@ body {
   @include grid-assign(false, header, main, footer);
   grid-template:
     " . header ." auto
-    " . main   ." minmax(90vh, 1fr)
+    " . main   ." minmax(110vh, 1fr)
     " . footer ." auto /
     minmax(var(--theme-spacing--gutter), 1fr)
     var(--theme-spacing--container)
     minmax(var(--theme-spacing--gutter), 1fr);
-  min-height: 100vh;
 }

@@ -15,9 +15,9 @@ const listOfTools = [
   "javascript",
 ];
 // get a random combination of tools
-const pickRandom = (options) => {
-  return options[Math.floor(Math.random() * options.length)];
-};
+const pickRandom = (options) =>
+  options[Math.floor(Math.random() * options.length)];
+
 const getRandomCombination = () => {
   const shuffledTools = listOfTools.sort(() => Math.random() - 0.5);
   return shuffledTools.map((option) => {
@@ -43,7 +43,7 @@ const runSelection = (isBasic) => {
   else {
     // show the selection
     randomCombination.forEach((item) => {
-      document.getElementById(item.id).classList.remove("hidden");
+      document.getElementById(item.id).classList.remove("is-hidden");
       document.getElementById(item.id).removeAttribute("hidden");
     });
   }
@@ -68,7 +68,7 @@ function randomiseCranes() {
   style.textContent = `body, html {--crane-color: hsla(${Math.floor(
     Math.random() * 360,
     3
-  )}, 100%, 90%, 80%)};}`;
+  )}, 100%, 90%, 90%)};}`;
 
   document.head.appendChild(style);
 }

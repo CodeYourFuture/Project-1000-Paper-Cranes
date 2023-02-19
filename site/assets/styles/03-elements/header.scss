@@ -1,20 +1,19 @@
 header {
   @include grid-assign(false, h1, nav);
   grid-template:
-    ".. .." var(--theme-spacing--3)
+    ".. .." var(--theme-spacing--2)
     "h1 nav" auto
-    ".. .." var(--theme-spacing--2) / 1fr auto;
+    ".. .." var(--theme-spacing--2) / min-content 1fr;
   align-items: center;
 
-  h1 {
-    font: var(--theme-font--brand);
-    color: var(--theme-color--brand);
+  svg {
+    width: var(--theme-spacing--touchtarget);
   }
   nav ul {
     display: flex;
     justify-content: flex-end;
     gap: var(--theme-spacing--gutter);
     color: var(--theme-color--paper);
-    mix-blend-mode: luminosity;
+    mix-blend-mode: difference;
   }
 }
