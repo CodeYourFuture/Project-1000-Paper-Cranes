@@ -29,8 +29,11 @@
   &__image {
     width: 100%;
     overflow: hidden;
+    display: grid;
+    place-content: center;
     color: var(--crane-color);
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    filter: drop-shadow(6px 6px 0px var(--theme-color--ink));
     @include on-event(false, ".card") {
       transform: rotate3d(0, 1, 0, 180deg);
       filter: hue-rotate(45deg);

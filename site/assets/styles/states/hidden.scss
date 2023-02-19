@@ -1,0 +1,18 @@
+// You can have fun with reveals
+
+li:not(.is-hidden) svg {
+  animation: reveal 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+// write a flip and rotate animation
+@keyframes reveal {
+  0% {
+    transform: rotate3d(0, 1, 0, 180deg);
+    filter: drop-shadow(12px 12px 10px var(--theme-color--ink));
+    opacity: 0;
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 0deg);
+    opacity: 1;
+    filter: drop-shadow(0 0 0 none);
+  }
+}
