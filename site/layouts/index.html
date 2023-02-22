@@ -1,12 +1,12 @@
 {{ define "main" }}
-<section>
+<section aria-label="Toolbox">
   <button id="challenge">Challenge me</button>
   <button id="advanced">Make it harder</button>
 </section>
 
 <ul id="tools">
-  {{ range $.Site.Data.html }} {{ partial "card.html" (dict "context" . "tool"
-  "html")}} {{ end}}
+  {{ range $.Site.Data.template }} {{ partial "card.html" (dict "context" .
+  "tool" "template")}} {{ end}}
   <!-- now add css options-->
   {{ range $.Site.Data.css }} {{ partial "card.html" (dict "context" . "tool"
   "css") }} {{ end}}

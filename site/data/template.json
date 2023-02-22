@@ -1,10 +1,9 @@
 [
     {
-        "name": "Just HTML",
+        "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/",
         "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
-        "description": "HTML is the standard markup language for creating Web pages.",
-        "requires": "None"
+        "description": "HTML is the standard markup language for creating Web pages."
 
     },
     {
@@ -25,7 +24,8 @@
         "name": "Pug",
         "url": "https://pugjs.org/api/getting-started.html",
         "requires": "Node",
-        "description": "Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers."
+        "description": "Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
+        "advanced": true
     },
     {
         "name": "Handlebars",
@@ -38,21 +38,24 @@
         "url": "https://gohugo.io/templates/",
         "requires": "Go",
         "description": "Go's templating language is based on the template/HTML format used in the C programming language.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+        "advanced": true
     },
     {
         "name": "Liquid",
         "url": "https://shopify.github.io/liquid/",
         "requires": "Ruby",
         "description": "Liquid is a template language created by Shopify and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg",
+        "advanced": true
     },
     {
         "name": "Twig",
         "url": "https://twig.symfony.com/doc/3.x/templates.html",
         "requires": "PHP",
         "description": "Twig is a modern template engine for PHP.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+        "advanced": true
     },
     {
         "name": "XSLT",
@@ -61,7 +64,21 @@
         "description": "XSLT is a language for transforming XML documents into other XML documents. It is a W3C Recommendation.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Internationalized_Resource_Identifier_%28IRI%29.svg",
         "advanced": true
+    },
+    {
+        "name": "Lit",
+        "url": "https://lit.dev/",
+        "description": "Lit is a simple library for building fast, lightweight web components.",
+        "image": "https://lit.dev/images/logo.svg",
+        "advanced": true,
+        "requires": "JavaScript"
+}, 
+    {
+        "name": "Markdown",
+        "url": "https://daringfireball.net/projects/markdown/",
+        "description": "Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
+        "advanced": true
     }
-
 ]
 
