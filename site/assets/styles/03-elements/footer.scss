@@ -1,5 +1,6 @@
 footer {
   color: var(--theme-color--paper);
+  mix-blend-mode: difference;
   display: flex;
   align-items: center;
   gap: var(--theme-spacing--gutter);

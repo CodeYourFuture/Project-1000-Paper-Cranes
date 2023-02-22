@@ -2,6 +2,6 @@ $heading__levels: 1, 2, 3, 4, 5, 6;
 @each $h in $heading__levels {
   h#{$h} {
     font: 600 var(--theme-type-size--#{$h}) var(--theme-font--display);
-    margin: 0;
+    margin: 0 auto 0.5em 0;
   }
 }

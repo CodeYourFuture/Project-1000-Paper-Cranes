@@ -5,6 +5,11 @@ header {
     "h1 nav" auto
     ".. .." var(--theme-spacing--2) / min-content 1fr;
   align-items: center;
+  h1 a {
+    @include on-event() {
+      color: var(--theme-color--paper);
+    }
+  }
 
   svg {
     width: var(--theme-spacing--touchtarget);

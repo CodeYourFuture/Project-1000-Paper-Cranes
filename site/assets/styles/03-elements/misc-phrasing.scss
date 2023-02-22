@@ -3,7 +3,38 @@ p {
 }
 
 code,
-pre code,
+.code,
+pre code .highlight pre,
 time {
   font: var(--theme-font--system);
+}
+code:not([class]) {
+  color: var(--theme-color--pop);
+}
+//this .highlight is goldmark
+.highlight pre {
+  display: block;
+  padding: var(--theme-spacing--gutter);
+  overflow-x: auto;
+  margin: 0;
+}
+
+.highlight {
+  border: var(--theme-border);
+  padding: var(--theme-spacing--1);
+  max-width: var(--theme-spacing--linelength);
+  @include pattern(dots, currentColor, c, false);
+  margin-bottom: var(--theme-spacing--4);
+}
+
+// details could show up in github flavoured markdown so we put a basic style on here
+summary {
+  margin-bottom: var(--theme-spacing--gutter);
+  > * {
+    display: inline-block;
+  }
+  &::marker {
+    color: var(--theme-color--accent);
+    font-size: var(--theme-type-size--3);
+  }
 }

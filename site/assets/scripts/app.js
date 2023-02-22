@@ -11,7 +11,7 @@ const listOfTools = [
   "css",
   "deployment",
   "generator",
-  "html",
+  "template",
   "javascript",
 ];
 // get a random combination of tools
@@ -42,7 +42,7 @@ const runSelection = (isBasic) => {
   if (!randomCombination.length) runSelection(isBasic);
   else {
     // show the selection
-    randomCombination.forEach((item) => {
+    randomCombination.forEach((item, index) => {
       document.getElementById(item.id).classList.remove("is-hidden");
       document.getElementById(item.id).removeAttribute("hidden");
     });
