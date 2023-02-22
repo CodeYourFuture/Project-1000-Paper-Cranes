@@ -16,15 +16,15 @@
     <span class="is-invisible">Find us on GitHub</span>
   </a>
   <p class="footer__impressum">
-    This
-    <a href="{{$.Site.Params.repo}}">challenge</a>
-    is a project of
+    A project of
     <a href="https://codeyourfuture.io">Code Your Future</a>
     <br />
-    This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-    International License.
+    Licensed under a Creative Commons Attribution-ShareAlike 4.0 International
+    License.
   </p>
 </footer>
 
 {{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
 <script src="{{$scripts.Permalink}}" defer></script>
+
+<script src="{{.Site.BaseURL}}sw.js" defer></script>
