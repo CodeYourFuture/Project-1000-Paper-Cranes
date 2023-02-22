@@ -31,7 +31,6 @@ case "$(uname)" in
     ;;
 esac
 
-cp README.md site/content/about.md
+cp ../README.md content/about.md
 
-cd site
 "${hugo}"
