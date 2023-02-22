@@ -4,6 +4,7 @@
       width="800"
       height="800"
       viewBox="0 0 455 455"
+      focusable="false"
     >
       <path
         d="M455 124.4h-92.38l20-72.38z"

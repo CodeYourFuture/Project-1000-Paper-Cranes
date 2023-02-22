@@ -4,17 +4,14 @@ a {
   transition: all 0.3s;
 }
 
-a:not([class]),
-a:link:not([class]),
-a:visited:not([class]) {
+a,
+a:link,
+a:visited {
   color: currentColor;
   text-decoration: none;
 
   @include on-event {
     text-decoration: underline;
     outline: none;
-  }
-  &:focus {
-    outline: 2px dotted;
   }
 }

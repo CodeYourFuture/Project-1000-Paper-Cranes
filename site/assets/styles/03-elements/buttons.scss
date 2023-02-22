@@ -3,21 +3,24 @@ button {
   appearance: none;
   text-decoration: none;
   text-align: center;
-  line-height: 1;
   white-space: nowrap;
   min-width: var(--theme-spacing--touchtarget);
+  font: 600 var(--theme-type-size--4) / 1 var(--theme-font--copy);
 
   //look
-  text-transform: uppercase;
+  text-transform: lowercase;
+
   color: var(--theme-color--ink);
   background-image: linear-gradient(
     297deg,
-    var(--theme-color--ink) calc(10% - 1px),
-    var(--crane-color) 10%
+    var(--theme-color--ink) calc(var(--theme-spacing--2) - 1px),
+    var(--crane-color) var(--theme-spacing--2)
   );
   border: var(--theme-border);
-  padding: calc(var(--theme-spacing--1) + var(--theme-spacing--nudge))
-    var(--theme-spacing--2) var(--theme-spacing--1);
+  border-radius: var(--theme-border-radius);
+  box-shadow: var(--theme-border-box-shadow);
+  padding: var(--theme-spacing--1) var(--theme-spacing--2);
+  margin: auto var(--theme-spacing--gutter) auto 0;
 
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
@@ -25,9 +28,10 @@ button {
     background-color: var(--theme-color--ink);
     background-image: linear-gradient(
       315deg,
-      var(--theme-color--ink) calc(10% - 1px),
-      var(--crane-color) 10%
+      var(--theme-color--ink) calc(var(--theme-spacing--2) - 1px),
+      var(--crane-color) var(--theme-spacing--2)
     );
+    box-shadow: 0 0 0 var(--theme-color--ink), 0 0 0 var(--theme-color--accent);
     text-decoration: none;
   }
   &:focus {

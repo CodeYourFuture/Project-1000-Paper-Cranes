@@ -21,7 +21,7 @@ $spacing__levels: 1, 2, 3, 4, 5, 6;
   --theme-spacing--container-max: #{$c-max};
   --theme-spacing--box: calc(var(--theme-spacing--container-min) / 3);
   --theme-spacing--gutter: var(--theme-spacing--2);
-  --theme-spacing--nudge: 3px; //set by eye is fine
+  --theme-spacing--nudge: 1px; //set by eye is fine
   --theme-spacing--linelength: 80ch; // readability maximum
   --theme-spacing--touchtarget: 48px; // access minimum
 }
