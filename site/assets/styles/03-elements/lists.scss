@@ -13,6 +13,7 @@ main ul {
     minmax(var(--theme-spacing--box), var(--theme-spacing--container-min))
   );
   gap: var(--theme-spacing--gutter);
+  margin-bottom: var(--theme-spacing--6);
   li {
     aspect-ratio: 1/1;
   }

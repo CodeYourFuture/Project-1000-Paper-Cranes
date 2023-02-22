@@ -1,10 +1,42 @@
-body {
-  @include grid-assign(false, header, main, footer);
-  grid-template:
-    " . header ." auto
-    " . main   ." minmax(110vh, 1fr)
-    " . footer ." auto /
-    minmax(var(--theme-spacing--gutter), 1fr)
-    var(--theme-spacing--container)
-    minmax(var(--theme-spacing--gutter), 1fr);
+body,
+html {
+  font-family: var(--theme-font--copy);
+  font-size: 100%;
+  color: var(--crane-color);
+  background-color: var(--crane-color);
+  background-image: linear-gradient(
+      315deg,
+      currentColor calc(50% - 1px),
+      var(--crane-color) 50%
+    ),
+    linear-gradient(60deg, currentColor calc(60% - 1px), var(--crane-color) 60%);
+  background-size: cover;
+  color: var(--theme-color--ink);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  animation: fade-in 0.2s;
+  transition: color 0.3s;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body > * {
+  max-width: var(--theme-spacing--container);
+  margin: 0 auto;
+  padding: 0 var(--theme-spacing--gutter);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -1,7 +1,6 @@
 .card {
   @include grid-assign(true, image, name, description, requirements);
 
-  display: grid;
   grid-template:
     "image image image" auto
     ".     .      ." var(--theme-spacing--1)
@@ -9,7 +8,6 @@
     ".     .      ." var(--theme-spacing--1) / var(--theme-spacing--1) 1fr var(--theme-spacing--1);
 
   height: 100%;
-  font-weight: 600;
   transition: all 0.3s;
 
   &__name {
