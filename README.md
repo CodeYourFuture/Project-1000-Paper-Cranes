@@ -19,7 +19,7 @@ If you build it, you will learn.
 <details>
 <summary>Do I have to only use the tools I am given?</summary>
 
-You must use the tools given in the selection. You can use other tools as well if you want, but you must use the tools in the selection to complete the challenge.
+You must use the tools given in the selection. You can use other tools _as well_ if you want, but you must use the tools in the selection to complete the challenge.
 
 </details>
 <details>
@@ -27,25 +27,25 @@ You must use the tools given in the selection. You can use other tools as well i
 
 Not exactly. There are some rules you must follow, and some things you can change:
 
-#### What must be the same:
+### What must be the same:
 
-##### You must use the same rules
+#### You must use the same rules
 
-This page must have the same text, and the same rules. You can't change the rules, or add or remove text from this page.
+The about page must have the same text, and the same rules. You can't change the rules, or add or remove text from the about page.
 
-##### You must use the tools defined in `website/data`
+#### You must use the tools defined in [site/data](https://github.com/CodeYourFuture/1000-Paper-Cranes/tree/main/site/data)
 
 If you look in this folder, you will find there is extra information about each tool, which you might want to use in your design. You can query these json files directly from your website, or you can copy them into your project and use them as you wish, but you can't add or remove tools.
 
-##### You must use the html structure
+#### You must use the html structure
 
 You must use the html structure given. You may add things (classes, more elements), but not remove anything.
 
-##### Your page must score 100% on Lighthouse Accessibility
+#### Your page must score 100% on Lighthouse Accessibility
 
 You can check this by running Lighthouse in Chrome DevTools.
 
-#### What can be different:
+### What can be different:
 
 You can make it look however you want! You can bring in more data from the provided data files. You can add extra features if you want. You can use different colours, fonts, images, etc. It would be fun to recreate this website exactly using your combo, and then "refold" using the same combo, to make it look or feel different.
 
@@ -72,7 +72,7 @@ You can use the cranes challenge in groups _as well_ as on your own. As you shou
 
 This challenge is for anyone who wants to play! We made it for [Code Your Future]("https://codeyourfuture.io") trainees, but it is open to anyone who wants to learn.
 
-The most interesting submissions will be merged into a gallery. If you want to be in the gallery, you must submit your work as a pull request to this repository.
+The most interesting submissions will be merged and shown in a gallery. If you want to be in the gallery, you must submit your work as a pull request to this repository.
 
 </details>
 <details>
@@ -104,7 +104,7 @@ Make a new directory for your work and change into it:
 mkdir cranes/your-combination-your-name && cd cranes/your-combination-your-name
 ```
 
-Build your website! Look at the [gallery](https://codeyourfuture.github.io/1000-Paper-Cranes/gallery) to see what you are aiming for.
+Build your website! Look at the [gallery](https://codeyourfuture.github.io/1000-Paper-Cranes/gallery) to see what you are aiming for. (TBA)
 
 Commit your work regularly, making many small commits with descriptive messages. When you are happy with your crane, open a pull request to merge your branch into the main branch. You can do this from the GitHub website.
 
@@ -112,23 +112,8 @@ Commit your work regularly, making many small commits with descriptive messages.
 
 ## Acceptance criteria
 
-- [ ] The page must be built using the tools selected
+- [ ] The page must be built using the tools given
 - [ ] The page must be built using the html structure given
 - [ ] The page must be built using the rules given
 - [ ] The page must be built using the data given
-- [ ] The page must score 100% on Lighthouse Accessibility
-
-# Developing the source website
-
-## To install
-
-```bash
-brew install hugo
-```
-
-## To run locally
-
-```bash
-cd site
-hugo server
-```
+- [ ] The page must score 100 on Lighthouse Accessibility
