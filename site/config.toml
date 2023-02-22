@@ -3,16 +3,13 @@ languageCode = "en-gb"
 title = "1000 Paper Cranes"
 languageLang = "en"
 [Menu]
+
 [[Menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[Menu.main]]
-name = "About"
+name = "about"
 url = "/about/"
 weight = 2
 [[Menu.main]]
-name = "Gallery"
+name = "gallery"
 url = "/gallery/"
 weight = 3
 
@@ -33,4 +30,4 @@ lineNos = false
 codeFences = true
 guessSyntax = true
 
-disableKinds = ["taxonomy", "term", "tags", "categories"]
+disableKinds = ["taxonomy", "term"]
