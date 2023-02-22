@@ -53,6 +53,15 @@ You should aim to build this website _at least_ ten times, so how will you make 
 
 </details>
 <details>
+<summary>Can I copy your code?</summary>
+Yes. This is an open source project and all the code can be re-used. You will have to apply the code to your own combination of tools, but you can reuse as much, or as little, as you want.
+
+Reading code is a great way to learn. You can see how someone else has solved a problem, and then you can apply that solution to your own problem. You can also see how someone else has written code, and then you can use that style in your own code.
+
+Blindly copy-pasting code is rarely wise if you are actually trying to learn something. Consider your goal: you are here to develop your skills and get a good job in tech. Copypaste is not a marketable skill. So read the code and understand it. Then apply it to your own project.
+
+</details> 
+<details>
 <summary>Do I have to do this on my own?</summary>
 
 You can use the cranes challenge in groups _as well_ as on your own. As you should aim to build this website _at least_ ten times, building in a group sometimes is a good way to mix it up and get more development from the challenge.
@@ -62,6 +71,8 @@ You can use the cranes challenge in groups _as well_ as on your own. As you shou
 <summary>Who is this challenge for?</summary>
 
 This challenge is for anyone who wants to play! We made it for [Code Your Future]("https://codeyourfuture.io") trainees, but it is open to anyone who wants to learn.
+
+The most interesting submissions will be merged into a gallery. If you want to be in the gallery, you must submit your work as a pull request to this repository.
 
 </details>
 <details>
