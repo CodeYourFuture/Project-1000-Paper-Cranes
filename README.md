@@ -33,6 +33,10 @@ Not exactly. There are some rules you must follow, and some things you can chang
 
 The about page must have the same text, and the same rules. You can't change the rules, or add or remove text from the about page.
 
+#### You must include an "explain" page
+
+You must include a page which explains which tools you used to build the site. Any interesting technical details can be included on this page too!
+
 #### You must use the tools defined in [site/data](https://github.com/CodeYourFuture/1000-Paper-Cranes/tree/main/site/data)
 
 If you look in this folder, you will find there is extra information about each tool, which you might want to use in your design. You can query these json files directly from your website, or you can copy them into your project and use them as you wish, but you can't add or remove tools.
