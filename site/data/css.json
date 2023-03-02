@@ -63,6 +63,13 @@
         "url": "https://get.foundation/",
         "description": "Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device.",
         "image": "https://get.foundation/sites/default/files/foundation-favicon.png"
+    },
+    {
+        "name": "Open Props",
+        "url": "https://open-props.style/",
+        "description": "CSS custom properties to help accelerate adaptive and consistent design.",
+        "image": "https://user-images.githubusercontent.com/1134620/141246730-7df4cf2a-6249-42ca-a01b-494c3ccddabe.png"
+
     }
 
 ]
