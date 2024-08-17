@@ -104,7 +104,7 @@ Make a new directory for your work and change into it:
 mkdir cranes/your-combination-your-name && cd cranes/your-combination-your-name
 ```
 
-Build your website! Look at the [gallery](https://codeyourfuture.github.io/1000-Paper-Cranes/gallery) to see what you are aiming for. (TBA)
+Build your website! 
 
 Commit your work regularly, making many small commits with descriptive messages. When you are happy with your crane, open a pull request to merge your branch into the main branch. You can do this from the GitHub website.
 
